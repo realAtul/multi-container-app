@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Clone Repo') {
       steps {
-        git 'https://github.com/<your-username>/multi-container-app.git'
+        git 'https://github.com/realatul/multi-container-app.git'
       }
     }
 
